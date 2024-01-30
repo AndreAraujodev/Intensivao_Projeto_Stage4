@@ -31,17 +31,17 @@ body {
 }
 
 .header__container .header__img__astronaut{
-  width: 375px;
+  width: 24rem;
   margin: auto;
 }
 
 
 .header__container h2 {
-  margin-top: 17px;
+  margin-top: 1rem;
   margin: auto;
   color: #B52184;
   text-align: center;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 900;
   
@@ -50,14 +50,14 @@ body {
  .header__container p {
   color: #312D64;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
  }
 
 .header__container .header__container_arrow {
-  width: 58.587px;
+  width: 3.6rem;
   margin: 35px auto;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
   text-align: center;
 }
 
@@ -70,37 +70,37 @@ body {
   border-radius: 19.865px;
   background: #FFF;
   box-shadow: 0px 3.311px 13.243px 0px rgba(0, 0, 0, 0.25);
-  margin: 0 39px;
-  padding: 26px;
-  margin-top: 49px;
+  margin: 0 2.5rem;
+  padding: 1.6rem;
+  margin-top: 3rem;
 
 }
 
 .cards .cards__title {
   color: #B52184;
-  font-size: 29.219px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  margin-top: 33px;
+  margin-top: 2rem;
 }
 
 .cards .cards__text {
   color: #312D64;
-  font-size: 16.042px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-align: start;
-  width: 265px;
-  margin: 19px 0 26px;
+  width: 16.5rem;
+  margin: 1rem 0 2rem;
 }
 
 .contato__card {
   display: flex;
   flex-direction: column;
   background: #F9F4FB;
-  margin-top: 52px;
+  margin-top: 3.25rem;
   width: 100%;
 
 }
@@ -108,21 +108,21 @@ body {
 .contato__card__title {
   color: #B52184;
   font-family: Mulish;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 900;
-  padding: 78px 40px 0;
+  padding: 5rem 2.5rem 0;
 
   
 }
 
 .contato__card_inputtext {
   display: flex;
-  width: 320px;
+  width: 20rem;
   align-items: center;
   margin: auto;
-  margin-top: 43px;
-  padding: 12px 14px 12px 45px;
-  border-radius: 16px;
+  margin-top: 2.7rem;
+  padding: 1rem 1rem 1rem 3rem;
+  border-radius: 1rem;
   font-weight: 600;
   border: 2px solid #312D64;
   background-image: url(./assets/person.svg);
@@ -133,14 +133,14 @@ body {
 
 .contato__card_email {
   display: flex;
-  width: 320px;
+  width: 20rem;
   align-items: center;
   margin: auto;
-  margin-top: 43px;
-  border-radius: 16px;
+  margin-top: 2.7rem;
+  border-radius: 1rem;
   border: 2px solid #312D64;
   padding: 12px 14px 12px 45px;
-  border-radius: 16px;
+  border-radius: 1rem;
   font-weight: 600;
   border: 2px solid #312D64;
   background-image: url(./assets/at.png);
@@ -150,37 +150,37 @@ body {
 
 .contato__mensagem {
   color: #312D64;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   display: flex;
-  width: 348px;
-  height: 98px;
-  padding: 12px 16px;
+  width: 22rem;
+  height: 6rem;
+  padding: 0.75rem 1rem;
   margin: auto;
-  margin-top: 36px;
-  border-radius: 16px;
+  margin-top: 2rem;
+  border-radius: 1rem;
   border: 2px solid #312D64;
 
 }
 
 .contato__button {
   color: #FFF;
-  width: 150px;
-  height: 45px;
-  margin: 34px 59px;
-  border-radius: 16px;
+  width: 9rem;
+  height: 2.8rem;
+  margin: 2rem 4rem;
+  border-radius: 1rem;
   background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 700;
 }
 
 
 footer {
-padding: 32px 16px;
+padding: 2rem 1rem;
 text-align: center;
 color: #FFF;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 600;
 }
 
@@ -189,17 +189,18 @@ font-weight: 600;
   
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 430px) {
 
   .header__container {
     flex-direction: row-reverse;
-    height: 836px;
+    width: 100%;
 
   }
 
   .header__container .header__img__astronaut {
-    width: 719.36px;
-    height: 732.357px;
+    width: 48rem;
+    height: 46rem;
+    padding-bottom: 5rem;
 
   }
 
@@ -209,46 +210,45 @@ font-weight: 600;
     justify-content: center;
     align-items: flex-start;
     width: 50%;
-    padding-left: 100px;  
+    padding-left: 6.25rem;  
     margin: 0 0 25px 0;
   }
 
   .header__container h2 {
     margin: 0;
     padding: 0;
-    font-size: 58px;
+    font-size: 3rem;
     font-weight: 900;
     
   }
 
   .header__container p { 
-    font-size: 32px;
+    font-size: 2rem;
    
   }
 
   .header__container .header__container_arrow { 
-    width: 70px;
-    height: 140px;
+    width: 4.4rem;
+    height: 8.75rem;
     margin: 0;
-    margin-top: 200px;
+    margin-top: 12.5rem;
 
   }
 
   .container__card {
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 64px;
-
+    margin-bottom: 4rem;
    
   }
 
   .card__title {
-    font-size: 20px;
+    font-size: 1.25rem;
 
   }
 
   .cards__text {
-    font-size: 20px;
+    font-size: 1.25rem;
 
   } 
 
@@ -269,32 +269,32 @@ font-weight: 600;
   }
 
   .contato__card {
-    margin-left: 100px;
+    margin-left: 6.25rem;
 
   }
 
   .contato__card__title {
     padding: 0;
-    font-size: 42px;
+    font-size: 2.6rem;
     font-weight: 900;
-    margin: 75px 0 30px;
+    margin: 4.7rem 0 2rem;
   }
 
   .contato__card_inputtext {
-    width: 590px;
-    margin-bottom: 24px;
+    width: 37rem;
+    margin-bottom: 1.5rem;
 
   }
 
   .contato__card_email {
-    width: 590px;
-    margin-bottom: 24px;
+    width: 37rem;
+    margin-bottom: 1.5rem;
 
   }
 
   .contato__mensagem {
-    width: 590px;
-    height: 120px;
+    width: 37rem;
+    height: 7.5rem;
   }
 
   .contato__button {
